@@ -80,10 +80,6 @@ header {
   padding: 0 40px;
 }
 
-header .logo img {
-  width: 100px;
-}
-
 header .logo {
   height: 100%;
   display: flex;
@@ -91,6 +87,10 @@ header .logo {
   justify-content: center;
 
   margin: 0;
+}
+
+header .logo img {
+  width: 100px;
 }
 
 header nav {
@@ -120,10 +120,12 @@ header nav ul li a {
   margin: 0 20px;
   text-decoration: none;
 }
+
 header nav ul li a:visited {
   text-decoration: none;
   color: black;
 }
+
 header nav ul li:hover a {
   color: var(--blue);
 }
@@ -154,7 +156,7 @@ main p {
 
 .search-bar input {
   height: 50px;
-  width: 80%;
+  width: 85%;
   max-width: 600px;
   border: 1px solid var(--gray-card-footer);
   position: absolute;
