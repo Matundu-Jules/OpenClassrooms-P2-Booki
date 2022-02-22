@@ -1,0 +1,115 @@
+header {
+  background-color: pink;
+}
+
+main {
+  margin: 0;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Search Bar */
+.search-bar-filter {
+  margin: 0 40px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Section popular-hebergement */
+.container-hebergement-popular {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Hebergement */
+#hebergement {
+  width: 100%;
+  padding: 50px 40px;
+  border-radius: 0;
+  background: none;
+}
+
+.cards-hebergement-container {
+  width: 100%;
+  align-items: center;
+  margin: 0;
+}
+
+.cards-hebergement {
+  width: 40%;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Popular */
+#popular {
+  width: 100%;
+  padding: 50px 40px;
+  border-radius: 0;
+  background: var(--gray-card-footer);
+  order: -1;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Activities */
+#activities {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 50px 40px;
+  height: auto;
+}
+
+.container-cards-activities {
+  width: 100%;
+  height: 550px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.cards-activity-xl {
+  width: 49%;
+  margin: 10px 0;
+}
+.cards-activity-xl .cards-activity-image {
+  width: 100%;
+  height: 90%;
+}
+.cards-activity-xl h3 {
+  margin: 20px 0 0 20px;
+}
+
+.cards-activities-ms {
+  width: 49%;
+  margin: 10px 0;
+}
+
+.cards-activity-m {
+  width: 100%;
+  height: 60%;
+  margin: 0 0 10px 0;
+}
+.cards-activity-m .cards-activity-image {
+  width: 100%;
+  height: 85%;
+}
+.cards-activity-m h3 {
+  margin: 15px 0 0 20px;
+}
+
+.cards-activity-s {
+  width: 100%;
+  height: 35%;
+  margin: 10px 0 0 0;
+}
+.cards-activity-s .cards-activity-image {
+  width: 100%;
+  height: 70%;
+}
+.cards-activity-s h3 {
+  margin: 20px 0 0 20px;
+}
