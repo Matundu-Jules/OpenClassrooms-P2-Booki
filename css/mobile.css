@@ -1,9 +1,10 @@
+/* General */
 main {
   margin: 40px 0;
 }
 
-main h1 {
-  font-size: 20px;
+h1 {
+  font-size: 25px;
 }
 
 main p {
@@ -17,7 +18,6 @@ header {
   height: 120px;
   flex-direction: column;
   padding: 0;
-  background: aquamarine;
 }
 
 header .logo {
@@ -34,6 +34,7 @@ header nav ul {
 
 header nav ul li {
   width: 50%;
+  border-bottom: 4px solid var(--gray-card-footer);
 }
 
 header nav ul li:hover {
@@ -62,17 +63,14 @@ header nav ul li:hover {
 }
 .btn-mobile {
   display: block;
-  position: absolute;
   height: 50px;
   border: none;
   border-radius: 15px;
   color: white;
   background: var(--blue);
   padding: 0 16px;
-  right: 0;
   font-weight: 700;
   cursor: pointer;
-  z-index: 2;
 }
 
 .btn-mobile .mobile-search {
@@ -98,6 +96,10 @@ header nav ul li:hover {
   left: -5px;
 }
 
+.filter {
+  margin: 20px 0 40px 0;
+}
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 /* Hebergement */
@@ -120,6 +122,7 @@ header nav ul li:hover {
 
 .cards-hebergement {
   width: 100%;
+  max-width: 100%;
   margin: 10px 0;
 }
 
@@ -132,7 +135,7 @@ header nav ul li:hover {
 /* Popular */
 #popular {
   width: 100%;
-  padding: 40px 20px;
+  padding: 40px 20px 20px 20px;
   border-radius: 0;
   background: var(--gray-card-footer);
   order: -1;
@@ -142,12 +145,14 @@ header nav ul li:hover {
 
 /* Activities */
 #activities {
-  padding: 50px 20px;
+  padding: 20px 20px;
   height: auto;
 }
-.container-cards-activities {
+.container-cards-activities-1,
+.container-cards-activities-2 {
   width: 100%;
   height: auto;
+  margin: 0 0 10px 0;
 }
 
 /* Card-Activity-XL */
@@ -167,13 +172,16 @@ header nav ul li:hover {
 /* Card-Activity-MS */
 .cards-activities-ms {
   width: 100%;
+  display: block;
+  height: auto;
+  margin: 0;
 }
 
 /* Card-Activity-M */
 .cards-activity-m {
   width: 100%;
   height: 130px;
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
 }
 .cards-activity-m .cards-activity-image {
   width: 100%;
@@ -183,11 +191,15 @@ header nav ul li:hover {
   margin: 10px 0 0 20px;
 }
 
+.container-cards-activities-2 .cards-activity-m {
+  height: 130px;
+}
+
 /* Card-Activity-S */
 .cards-activity-s {
   width: 100%;
   height: 130px;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 0 0;
 }
 .cards-activity-s .cards-activity-image {
   width: 100%;
@@ -196,12 +208,19 @@ header nav ul li:hover {
 .cards-activity-s h3 {
   margin: 10px 0 0 20px;
 }
+
+.container-cards-activities-2 .cards-activity-s {
+  height: 130px;
+}
+.container-cards-activities-2 .cards-activity-s .cards-activity-image {
+  height: 70%;
+}
 /* ----------------------------------------------------------------------------------------------------- */
 
 /* Footer */
 footer {
   flex-direction: column;
-  padding: 40px 20px;
+  padding: 20px 20px;
 }
 
 footer ul {
