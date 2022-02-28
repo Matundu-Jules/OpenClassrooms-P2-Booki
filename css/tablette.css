@@ -110,8 +110,34 @@ h1 {
 }
 .cards-activity-s .cards-activity-image {
   width: 100%;
-  height: 70%;
+  height: 72%;
 }
 .cards-activity-s h3 {
-  margin: 20px 0 0 20px;
+  margin: 18px 0 0 20px;
+}
+
+.container-cards-activities-2 .cards-activity-m {
+  height: 60%;
+  margin: 0 0 10px 0;
+}
+
+.container-cards-activities-2 .cards-activity-m .cards-activity-image {
+  height: 85%;
+}
+
+.container-cards-activities-2 .cards-activity-m h3 {
+  margin: 15px 0 0 20px;
+}
+
+.container-cards-activities-2 .cards-activity-s {
+  height: 35%;
+  margin: 10px 0 0 0;
+}
+
+.container-cards-activities-2 .cards-activity-s .cards-activity-image {
+  height: 72%;
+}
+
+.container-cards-activities-2 .cards-activity-s h3 {
+  margin: 18px 0 0 20px;
 }
