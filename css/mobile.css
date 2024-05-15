@@ -100,6 +100,11 @@ header nav ul li:hover {
   left: -5px;
 }
 
+.filter ul li:last-child {
+  margin-top: 0;
+  margin-left: 0;
+}
+
 .filter {
   margin: 20px 0 40px 0;
 }
